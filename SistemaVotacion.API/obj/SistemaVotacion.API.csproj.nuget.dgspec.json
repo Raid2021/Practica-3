@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.API\\SistemaVotacion.API.csproj": {}
+    "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.API\\SistemaVotacion.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.API\\SistemaVotacion.API.csproj": {
+    "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.API\\SistemaVotacion.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.API\\SistemaVotacion.API.csproj",
+        "projectUniqueName": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.API\\SistemaVotacion.API.csproj",
         "projectName": "SistemaVotacion.API",
-        "projectPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.API\\SistemaVotacion.API.csproj",
+        "projectPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.API\\SistemaVotacion.API.csproj",
         "packagesPath": "C:\\Users\\raulp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.API\\obj\\",
+        "outputPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj": {
-                "projectPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj"
+              "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj": {
+                "projectPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj"
               },
-              "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj"
+              "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj"
               }
             }
           }
@@ -60,6 +60,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.29, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -99,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj": {
+    "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj",
+        "projectUniqueName": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj",
         "projectName": "SistemaVotacion.Core",
-        "projectPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj",
+        "projectPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj",
         "packagesPath": "C:\\Users\\raulp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\obj\\",
+        "outputPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -149,6 +153,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.29, )"
@@ -180,14 +188,14 @@
         }
       }
     },
-    "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj": {
+    "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj",
         "projectName": "SistemaVotacion.Infrastructure",
-        "projectPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\raulp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -208,8 +216,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj": {
-                "projectPath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj"
+              "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj": {
+                "projectPath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Core\\SistemaVotacion.Core.csproj"
               }
             }
           }
@@ -233,6 +241,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.29, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

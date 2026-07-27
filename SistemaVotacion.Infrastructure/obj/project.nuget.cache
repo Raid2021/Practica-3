@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcVr1XBODwQ=",
+  "dgSpecHash": "mjWtaV9ZZ9o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\raulp\\source\\repos\\SistemaVotacion.API\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\raulp\\Documents\\GitHub\\Practica-3\\SistemaVotacion.Infrastructure\\SistemaVotacion.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raulp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\raulp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
