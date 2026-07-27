@@ -1,0 +1,7 @@
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\SistemaVotacion.API.csproj.AssemblyReference.cache
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\SistemaVotacion.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\SistemaVotacion.API.AssemblyInfoInputs.cache
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\SistemaVotacion.API.AssemblyInfo.cs
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\SistemaVotacion.API.csproj.CoreCompileInputs.cache
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.API\obj\Debug\net8.0\SistemaVotacion.API.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,5 @@
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.AssemblyInfo.cs
+C:\Users\raulp\source\repos\SistemaVotacion.API\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.csproj.CoreCompileInputs.cache
