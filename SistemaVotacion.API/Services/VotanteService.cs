@@ -8,7 +8,7 @@ namespace SistemaVotacion.API.Services
     public class VotanteService : IVotanteService
     {
         private readonly IVotanteRepository _repository;
-        private readonly IMapper _mapper; // Asumiendo que usan AutoMapper, como sugirió el profesor
+        private readonly IMapper _mapper; // IMapper: mapea entre entidades y DTOs, centralizando reglas de mapeo y evitando conversiones manuales repetitivas
 
         public VotanteService(IVotanteRepository repository, IMapper mapper)
         {
@@ -51,6 +51,28 @@ namespace SistemaVotacion.API.Services
 
             await _repository.DeleteAsync(votante);
             return string.Empty; // Éxito
+        }
+
+        public async Task<string> ActualizarVotanteAsync(int id, VotanteUpdateDto dto)
+        {
+            var votante = await _repository.GetByIdAsync(id);
+            if (votante == null) return "Votante no encontrado.";
+
+            // Si la cédula cambia, validar unicidad
+            if (!string.Equals(votante.Cedula, dto.Cedula, StringComparison.OrdinalIgnoreCase))
+            {
+                if (await _repository.ExisteCedulaAsync(dto.Cedula))
+                {
+                    return "Ya existe un votante registrado con esta cédula.";
+                }
+            }
+
+            // Actualizar campos permitidos
+            votante.Cedula = dto.Cedula;
+            votante.NombreCompleto = dto.NombreCompleto;
+
+            await _repository.UpdateAsync(votante);
+            return string.Empty;
         }
     }
 }

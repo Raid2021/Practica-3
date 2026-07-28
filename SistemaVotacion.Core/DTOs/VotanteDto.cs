@@ -26,5 +26,14 @@ namespace SistemaVotacion.Core.DTOs
         public string NombreCompleto { get; set; } = string.Empty;
     }
 
-    // Puedes crear un VotanteUpdateDto similar si necesitas actualizar otros datos
+    // DTO para actualizar un votante: permite cambiar cédula y nombre completo
+    public class VotanteUpdateDto
+    {
+        [Required(ErrorMessage = "La cédula es obligatoria")]
+        [StringLength(20)]
+        public string Cedula { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "El nombre es obligatorio")]
+        public string NombreCompleto { get; set; } = string.Empty;
+    }
 }

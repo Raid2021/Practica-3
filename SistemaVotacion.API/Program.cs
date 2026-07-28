@@ -19,6 +19,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Inyección de Repositorios y Servicios (FUNDAMENTAL para el profe)
 builder.Services.AddScoped<IVotanteRepository, VotanteRepository>();
 builder.Services.AddScoped<IVotanteService, VotanteService>();
+// Inyección de dependencias para Partidos (mantener registros existentes)
+builder.Services.AddScoped<IPartidoRepository, PartidoRepository>();
+builder.Services.AddScoped<IPartidoService, PartidoService>();
+// Inyección de dependencias para Votos
+builder.Services.AddScoped<IVotoRepository, VotoRepository>();
+builder.Services.AddScoped<IVotoService, VotoService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 var app = builder.Build();
 

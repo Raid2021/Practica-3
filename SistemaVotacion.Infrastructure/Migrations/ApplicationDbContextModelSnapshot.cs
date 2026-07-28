@@ -22,6 +22,42 @@ namespace SistemaVotacion.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("SistemaVotacion.Core.Entities.PartidoPolitico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Activo")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Descripcion")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Siglas")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Nombre")
+                        .IsUnique();
+
+                    b.HasIndex("Siglas")
+                        .IsUnique();
+
+                    b.ToTable("Partidos");
+                });
+
             modelBuilder.Entity("SistemaVotacion.Core.Entities.Votante", b =>
                 {
                     b.Property<int>("Id")
@@ -50,6 +86,52 @@ namespace SistemaVotacion.Infrastructure.Migrations
                         .IsUnique();
 
                     b.ToTable("Votantes");
+                });
+
+            modelBuilder.Entity("SistemaVotacion.Core.Entities.Voto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("FechaVoto")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PartidoPoliticoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VotanteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PartidoPoliticoId");
+
+                    b.HasIndex("VotanteId")
+                        .IsUnique();
+
+                    b.ToTable("Votos");
+                });
+
+            modelBuilder.Entity("SistemaVotacion.Core.Entities.Voto", b =>
+                {
+                    b.HasOne("SistemaVotacion.Core.Entities.PartidoPolitico", "PartidoPolitico")
+                        .WithMany()
+                        .HasForeignKey("PartidoPoliticoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("SistemaVotacion.Core.Entities.Votante", "Votante")
+                        .WithMany()
+                        .HasForeignKey("VotanteId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("PartidoPolitico");
+
+                    b.Navigation("Votante");
                 });
 #pragma warning restore 612, 618
         }

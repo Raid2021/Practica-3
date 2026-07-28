@@ -9,5 +9,6 @@ namespace SistemaVotacion.API.Services
         // Retornamos un string con el error o vacío si fue exitoso (Patrón Result simplificado)
         Task<string> CrearVotanteAsync(VotanteCreateDto dto);
         Task<string> EliminarVotanteAsync(int id);
+        Task<string> ActualizarVotanteAsync(int id, VotanteUpdateDto dto);
     }
 }

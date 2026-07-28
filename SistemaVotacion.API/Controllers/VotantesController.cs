@@ -43,6 +43,19 @@ namespace SistemaVotacion.API.Controllers
             return Ok(new { mensaje = "Votante creado exitosamente" });
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] VotanteUpdateDto dto)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var error = await _votanteService.ActualizarVotanteAsync(id, dto);
+
+            if (!string.IsNullOrEmpty(error))
+                return BadRequest(new { mensaje = error });
+
+            return Ok(new { mensaje = "Votante actualizado exitosamente" });
+        }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

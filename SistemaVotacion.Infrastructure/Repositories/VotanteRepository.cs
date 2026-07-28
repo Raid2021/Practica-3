@@ -18,12 +18,14 @@ namespace SistemaVotacion.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Votante>> GetAllAsync() => await _context.Votantes.ToListAsync();
+        // AsNoTracking() para consultas de solo lectura mejora rendimiento y evita tracking innecesario
+        public async Task<IEnumerable<Votante>> GetAllAsync() => await _context.Votantes.AsNoTracking().ToListAsync();
 
         public async Task<Votante?> GetByIdAsync(int id) => await _context.Votantes.FindAsync(id);
 
+        // Usar AsNoTracking para lecturas por cedula (no se planea modificar la entidad a partir de esta consulta)
         public async Task<Votante?> GetByCedulaAsync(string cedula) =>
-            await _context.Votantes.FirstOrDefaultAsync(v => v.Cedula == cedula);
+            await _context.Votantes.AsNoTracking().FirstOrDefaultAsync(v => v.Cedula == cedula);
 
         public async Task<bool> ExisteCedulaAsync(string cedula) =>
             await _context.Votantes.AnyAsync(v => v.Cedula == cedula);

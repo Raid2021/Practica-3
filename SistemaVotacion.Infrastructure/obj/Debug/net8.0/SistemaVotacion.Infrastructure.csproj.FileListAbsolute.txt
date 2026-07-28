@@ -21,3 +21,21 @@ C:\Users\raulp\Documents\GitHub\Practica-3\SistemaVotacion.Infrastructure\obj\De
 C:\Users\raulp\Documents\GitHub\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.pdb
 C:\Users\raulp\Documents\GitHub\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.genruntimeconfig.cache
 C:\Users\raulp\Documents\GitHub\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\ref\SistemaVotacion.Infrastructure.dll
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\bin\Debug\net8.0\SistemaVotacion.Infrastructure.deps.json
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\bin\Debug\net8.0\SistemaVotacion.Infrastructure.runtimeconfig.json
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\bin\Debug\net8.0\SistemaVotacion.Infrastructure.dll
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\bin\Debug\net8.0\SistemaVotacion.Infrastructure.pdb
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\bin\Debug\net8.0\SistemaVotacion.Core.dll
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\bin\Debug\net8.0\SistemaVotacion.Core.pdb
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.AssemblyInfo.cs
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.sourcelink.json
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaV.1B36F992.Up2Date
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.dll
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\refint\SistemaVotacion.Infrastructure.dll
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.pdb
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\SistemaVotacion.Infrastructure.genruntimeconfig.cache
+C:\Users\JosueNavarroB\Documents\Projects Visual Studio\clase progra avanzada 2026\Practica-3\SistemaVotacion.Infrastructure\obj\Debug\net8.0\ref\SistemaVotacion.Infrastructure.dll
