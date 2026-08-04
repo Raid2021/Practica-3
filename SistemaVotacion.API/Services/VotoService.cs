@@ -48,20 +48,5 @@ namespace SistemaVotacion.API.Services
 
             return string.Empty;
         }
-
-        // Combina el listado de partidos con el conteo de votos (0 para los que aún no tienen votos)
-        public async Task<IEnumerable<ResultadoVotacionDto>> ObtenerResultadosAsync()
-        {
-            var partidos = await _partidoRepository.GetAllAsync();
-            var conteo = await _votoRepository.ObtenerConteoPorPartidoAsync();
-
-            return partidos.Select(p => new ResultadoVotacionDto
-            {
-                PartidoId = p.Id,
-                Nombre = p.Nombre,
-                Siglas = p.Siglas,
-                CantidadVotos = conteo.TryGetValue(p.Id, out var cantidad) ? cantidad : 0
-            });
-        }
     }
 }
