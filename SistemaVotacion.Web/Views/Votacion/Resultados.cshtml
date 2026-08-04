@@ -1,0 +1,37 @@
+@model IEnumerable<ResultadoVotacionDto>
+@{
+    ViewData["Title"] = "Resultados";
+    var totalVotos = Model.Sum(r => r.CantidadVotos);
+}
+
+<h1>Resultados de la votación</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Partido</th>
+            <th>Siglas</th>
+            <th>Votos</th>
+            <th>Porcentaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var resultado in Model.OrderByDescending(r => r.CantidadVotos))
+        {
+            var porcentaje = totalVotos == 0 ? 0 : (resultado.CantidadVotos * 100.0 / totalVotos);
+            <tr>
+                <td>@resultado.Nombre</td>
+                <td>@resultado.Siglas</td>
+                <td>@resultado.CantidadVotos</td>
+                <td>@porcentaje.ToString("0.0")%</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="2">Total</th>
+            <th>@totalVotos</th>
+            <th>100%</th>
+        </tr>
+    </tfoot>
+</table>

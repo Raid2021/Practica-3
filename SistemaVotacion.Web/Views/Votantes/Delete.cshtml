@@ -1,0 +1,20 @@
+@model VotanteDto
+@{
+    ViewData["Title"] = "Eliminar votante";
+}
+
+<h1>Eliminar votante</h1>
+
+<p>¿Está seguro que desea eliminar el siguiente votante?</p>
+
+<dl class="row">
+    <dt class="col-sm-3">Cédula</dt>
+    <dd class="col-sm-9">@Model.Cedula</dd>
+    <dt class="col-sm-3">Nombre completo</dt>
+    <dd class="col-sm-9">@Model.NombreCompleto</dd>
+</dl>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-link">Cancelar</a>
+</form>
