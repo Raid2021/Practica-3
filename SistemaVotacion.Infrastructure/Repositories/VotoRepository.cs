@@ -1,6 +1,7 @@
 using SistemaVotacion.Core.Entities;
 using SistemaVotacion.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace SistemaVotacion.Infrastructure.Repositories
@@ -29,6 +30,15 @@ namespace SistemaVotacion.Infrastructure.Repositories
             _context.Set<Votante>().Update(votante);
 
             await _context.SaveChangesAsync();
+        }
+
+        // Agrupa los votos por partido para armar la pantalla de resultados
+        public async Task<Dictionary<int, int>> ObtenerConteoPorPartidoAsync()
+        {
+            return await _context.Set<Voto>()
+                .GroupBy(v => v.PartidoPoliticoId)
+                .Select(g => new { PartidoId = g.Key, Cantidad = g.Count() })
+                .ToDictionaryAsync(x => x.PartidoId, x => x.Cantidad);
         }
     }
 }

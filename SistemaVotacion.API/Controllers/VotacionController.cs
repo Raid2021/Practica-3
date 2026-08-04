@@ -25,5 +25,12 @@ namespace SistemaVotacion.API.Controllers
 
             return Ok(new { mensaje = "Voto registrado correctamente" });
         }
+
+        [HttpGet("resultados")]
+        public async Task<IActionResult> Resultados()
+        {
+            var resultados = await _votoService.ObtenerResultadosAsync();
+            return Ok(resultados);
+        }
     }
 }

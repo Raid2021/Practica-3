@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVotacion.Core", "Sis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVotacion.Infrastructure", "SistemaVotacion.Infrastructure\SistemaVotacion.Infrastructure.csproj", "{C5E396F7-5326-449A-BE3F-DF6103EF2113}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVotacion.Web", "SistemaVotacion.Web\SistemaVotacion.Web.csproj", "{59F6E93F-399E-4391-BF03-CE4A2B60C6BA}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9CC41013-9A59-4D70-9565-F00F2EAB1332}"
 	ProjectSection(SolutionItems) = preProject
 		instruccions.md = instruccions.md
@@ -34,6 +36,10 @@ Global
 		{C5E396F7-5326-449A-BE3F-DF6103EF2113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5E396F7-5326-449A-BE3F-DF6103EF2113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5E396F7-5326-449A-BE3F-DF6103EF2113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F6E93F-399E-4391-BF03-CE4A2B60C6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F6E93F-399E-4391-BF03-CE4A2B60C6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F6E93F-399E-4391-BF03-CE4A2B60C6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F6E93F-399E-4391-BF03-CE4A2B60C6BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
